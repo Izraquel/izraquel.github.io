@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     margin-top: 0px;
-    border: 0;   
+    border: 0; 
 }
 body {
     background: #040404;
@@ -100,14 +100,16 @@ header p  {
     color: white;
 }
 /* Responsive */
-@media only screen and (max-width: 500px){
-    header {
-        width:100%;
+@media (max-width: 500px){
+    body {
+
     }
+    main {
+        
+   }
     .grid_cards {
       display: relative;
       grid-template-columns: 1fr;
-      width: 100%;
   }
 }
 
