@@ -108,8 +108,17 @@ header p  {
         max-width: 100%;
     }
     .grid_cards {
-      display: relative;
+      display: grid;
       grid-template-columns: 1fr;
   }
 }
-
+@media (max-width:768px){
+    body {
+        max-width: 90%;
+    }
+}
+@media (max-width: 1024px) {
+    body {
+        max-width: 90%;
+    }
+}
