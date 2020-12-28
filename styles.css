@@ -14,10 +14,13 @@ body {
     justify-content: center;
 
 
-  
-    width: 704px;
-    height: 718px;
-    margin:0 auto;			
+    max-width: 53%;
+ 
+
+/*    width: 704px;
+ */    
+/*     height: 718px;
+ */    margin:0 auto;			
      
 }
 header {
@@ -100,13 +103,10 @@ header p  {
     color: white;
 }
 /* Responsive */
-@media (max-width: 500px){
+@media (max-width: 500px) {
     body {
-
+        max-width: 100%;
     }
-    main {
-        
-   }
     .grid_cards {
       display: relative;
       grid-template-columns: 1fr;
